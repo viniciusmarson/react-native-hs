@@ -1,5 +1,4 @@
 # react-native-helpshift (unofficial bindings)
-[![npm version](https://badge.fury.io/js/react-native-helpshift.svg)](https://badge.fury.io/js/react-native-helpshift)
 
 Native Bindings for the [Helpshift][helpshift] Library. Only available on iOS right now.
 
@@ -15,9 +14,16 @@ Native Bindings for the [Helpshift][helpshift] Library. Only available on iOS ri
 
 The method names are named the same as in the [iOS SDK][sdk]. Only a few methods are implemented now - I welcome collaboration, pull requests, etc. 
 
+### FAQ
 ```js
 import * as Helpshift from 'react-native-helpshift';
 Helpshift.showFAQs({ 'withTagsMatching' : {'operator' : 'or', 'tags' : ['iPhone', 'iPad']}});
+```
+
+### CHAT
+```js
+import * as Helpshift from 'react-native-helpshift';
+Helpshift.showConversation();
 ```
 
 [helpshift]: http://helpshift.com
