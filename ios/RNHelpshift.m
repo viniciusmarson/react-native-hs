@@ -1,5 +1,7 @@
 #import "RNHelpshift.h"
 
+#import "HelpshiftSupport.h"
+
 #import "RCTConvert.h"
 
 @implementation RNHelpshift
