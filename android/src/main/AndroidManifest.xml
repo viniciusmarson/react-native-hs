@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bahikhata.helpshift">
+
+    <activity
+        android:name="com.helpshift.support.activities.ParentActivity"
+        android:theme="@style/Helpshift.Theme.Activity"
+        android:screenOrientation="portrait" />
+
+</manifest>
