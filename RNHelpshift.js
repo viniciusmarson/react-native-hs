@@ -11,8 +11,12 @@ export function showFAQs(options = {}) {
 }
 
 export function showConversation(options = {}) {
-  RNHelpshift.showConversation(options);
-}
+  if (Platform.OS === 'ios') {
+    RNHelpshift.showConversation(options);
+  } else {
+    RNHelpshift.showConversation();
+  };
+};
 
 export function setUser(userId, name, email) {
   RNHelpshift.setUserIdentifier(userId, name, email);
