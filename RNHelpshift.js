@@ -23,7 +23,7 @@ export function showConversation(options = {}) {
 };
 
 export function setUser(userId, name, email) {
-  RNHelpshift.setUserIdentifier(userId, name, email);
+  RNHelpshift.setUser(userId, name, email);
 }
 
 export function initialize(api_key, domain_name, app_id) {
