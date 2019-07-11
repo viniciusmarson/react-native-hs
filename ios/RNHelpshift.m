@@ -9,7 +9,6 @@
 -(id) init {
     self = [super init];
     [[HelpshiftSupport sharedInstance] setDelegate:self];
-    [[HelpshiftInbox sharedInstance] setDelegate:self];
     return self;
 }
 
@@ -53,16 +52,5 @@ RCT_EXPORT_METHOD(requestUnreadMessagesCount:(BOOL)remote)
 - (void)didReceiveUnreadMessagesCount:(NSInteger)count {
     [self sendEventWithName:@"didReceiveUnreadMessagesCount" body:@{@"count": @(count)}];
 }
-
-# pragma mark - HelpshiftInboxDelegate methods
-
-- (void)inboxMessageAdded:(id<HelpshiftInboxMessage>)newMessage {
-    NSLog(@"HelpshiftInboxDelegate got a inboxMessageAdded callback.");
-}
-
-- (void)inboxMessageDeleted:(NSString *)identifier {
-  NSLog(@"HelpshiftInboxDelegate got a inboxMessageDeleted callback.");
-}
-
 
 @end
