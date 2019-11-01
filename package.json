@@ -1,88 +1,14 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-native-helpshift@git+https://github.com/acgourley/react-native-helpshift.git",
-        "scope": null,
-        "escapedName": "react-native-helpshift",
-        "name": "react-native-helpshift",
-        "rawSpec": "git+https://github.com/acgourley/react-native-helpshift.git",
-        "spec": "git+https://github.com/acgourley/react-native-helpshift.git",
-        "type": "hosted",
-        "hosted": {
-          "type": "github",
-          "ssh": "git@github.com:acgourley/react-native-helpshift.git",
-          "sshUrl": "git+ssh://git@github.com/acgourley/react-native-helpshift.git",
-          "httpsUrl": "git+https://github.com/acgourley/react-native-helpshift.git",
-          "gitUrl": "git://github.com/acgourley/react-native-helpshift.git",
-          "shortcut": "github:acgourley/react-native-helpshift",
-          "directUrl": "https://raw.githubusercontent.com/acgourley/react-native-helpshift/master/package.json"
-        }
-      },
-      "/Users/acgourley/projects/oculogger/ocuclient"
-    ]
-  ],
-  "_from": "git+https://github.com/acgourley/react-native-helpshift.git",
-  "_id": "react-native-helpshift@0.0.1",
-  "_inCache": true,
-  "_location": "/react-native-helpshift",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "react-native-helpshift@git+https://github.com/acgourley/react-native-helpshift.git",
-    "scope": null,
-    "escapedName": "react-native-helpshift",
-    "name": "react-native-helpshift",
-    "rawSpec": "git+https://github.com/acgourley/react-native-helpshift.git",
-    "spec": "git+https://github.com/acgourley/react-native-helpshift.git",
-    "type": "hosted",
-    "hosted": {
-      "type": "github",
-      "ssh": "git@github.com:acgourley/react-native-helpshift.git",
-      "sshUrl": "git+ssh://git@github.com/acgourley/react-native-helpshift.git",
-      "httpsUrl": "git+https://github.com/acgourley/react-native-helpshift.git",
-      "gitUrl": "git://github.com/acgourley/react-native-helpshift.git",
-      "shortcut": "github:acgourley/react-native-helpshift",
-      "directUrl": "https://raw.githubusercontent.com/acgourley/react-native-helpshift/master/package.json"
-    }
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/acgourley/react-native-helpshift.git#f1274d11f04ceb6e88f2f1d2b3fbe738dc4880ac",
-  "_shasum": "230a18f4d54b85d1c88ebae0ee7e6b72e1ba4a9c",
-  "_shrinkwrap": null,
-  "_spec": "react-native-helpshift@git+https://github.com/acgourley/react-native-helpshift.git",
-  "_where": "/Users/acgourley/projects/oculogger/ocuclient",
-  "author": {
-    "name": "Alex Gourley."
-  },
-  "bugs": {
-    "url": "https://github.com/acgourley/react-native-helpshift/issues"
-  },
+  "name": "react-native-hs",
+  "version": "1.0.0",
   "dependencies": {
     "fbjs": ">=0.8.3"
   },
-  "description": "Native Bindings for the Helpshift Library",
-  "devDependencies": {},
-  "gitHead": "f1274d11f04ceb6e88f2f1d2b3fbe738dc4880ac",
-  "homepage": "https://github.com/acgourley/react-native-helpshift#readme",
+  "author": "Vinicius Marson",
+  "description": "React Native lib for Helpshift (Android and iOS)",
   "keywords": [
     "react-native",
     "helpshift",
-    "ios"
-  ],
-  "license": "Apache-2.0",
-  "main": "RNHelpshift",
-  "name": "react-native-helpshift",
-  "optionalDependencies": {},
-  "readme": "# react-native-helpshift (unofficial bindings)\n[![npm version](https://badge.fury.io/js/react-native-helpshift.svg)](https://badge.fury.io/js/react-native-helpshift)\n\nNative Bindings for the [Helpshift][helpshift] Library. Only available on iOS right now.\n\n## Installation\n\n1. `npm install --save react-native-helpshift`\n2. `react-native link react-native-helpshift`\n3. Add Localytics to your ios/podfile file `pod 'Helpshift', '~> 6.2'`\n4. `cd ios && pod install`\n5. Follow the steps on the [Helpshift SDK to complete installation](https://developers.helpshift.com/ios/getting-started/). \n\n## Usage\n\nThe method names are named the same as in the [iOS SDK][sdk]. Only a few methods are implemented now - I welcome collaboration, pull requests, etc. \n\n```js\nimport * as Helpshift from 'react-native-helpshift';\nHelpshift.showFAQs({ 'withTagsMatching' : {'operator' : 'or', 'tags' : ['iPhone', 'iPad']}});\n```\n\n[helpshift]: http://helpshift.com",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acgourley/react-native-helpshift.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.0.1"
+    "hs"
+  ]
 }

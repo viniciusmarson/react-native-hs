@@ -1,6 +1,6 @@
-# react-native-helpshift (unofficial bindings)
+# react-native-hs
 
-Native Bindings for the [Helpshift][helpshift] Library. Only available on iOS right now.
+Native Bindings for the [Helpshift][helpshift] Library.  Available for iOS and Android.
 
 ## Installation (iOS)
 
