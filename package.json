@@ -1,10 +1,13 @@
 {
   "name": "react-native-hs",
   "version": "1.0.1",
+  "main": "RNHelpshift",
   "dependencies": {
     "fbjs": ">=0.8.3"
   },
-  "author": "Vinicius Marson",
+  "author": {
+    "name": "Vinicius Marson"
+  },
   "description": "React Native lib for Helpshift (Android and iOS)",
   "keywords": [
     "react-native",
