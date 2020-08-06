@@ -6,12 +6,11 @@ import android.util.Log;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import com.helpshift.All;
+
 import com.helpshift.Core;
-import com.helpshift.InstallConfig;
-import com.helpshift.campaigns.Campaigns;
-import com.helpshift.exceptions.InstallException;
 import com.helpshift.support.Support;
+import com.helpshift.InstallConfig;
+import com.helpshift.exceptions.InstallException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -52,7 +51,7 @@ public class HelpShiftModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void initialize(String api_key,String domain_name,String app_id){
 
-        Core.init(All.getInstance());
+        Core.init(Support.getInstance());
         /*InstallConfig installConfig = new InstallConfig.Builder()
                                     .setEnableInAppNotification(true)
                                     .setNotificationSound(R.raw.solemn)
