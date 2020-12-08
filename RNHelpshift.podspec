@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
     s.ios.deployment_target  = '10.0'
   
     s.dependency 'React'
-    s.dependency 'Helpshift', '7.8.0-bitcode'
+    s.dependency 'Helpshift', '7.8.0-withCampaigns-bitcode'
   end
