@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.license      = "Public"
     s.author       = { "Vinicius Marson" => "" }
     s.source       = { :git => "git@github.com:viniciusmarson/react-native-hs.git", :tag => "#{s.version}" }
-    s.source_files = "ios/**/*.{swift,h,m}"
+    s.source_files = "ios/RNHelpshift*.{h,m}"
     s.preserve_paths = "*.js"
     s.ios.deployment_target  = '10.0'
   
