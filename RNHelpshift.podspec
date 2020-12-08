@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "RNHelpshift"
-    s.version      = "1.0.7"
+    s.version      = "2.0.0"
     s.summary      = "RNHelpshift"
     s.description  = "RNHelpshift Module"
     s.homepage     = "https://www.npmjs.com/package/react-native-hs"

@@ -1,4 +1,4 @@
-#import "RNHelpshift.h"
+@import Helpshift
 
 #import "RCTConvert.h"
 

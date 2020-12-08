@@ -1,8 +1,7 @@
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
 
-#import "HelpshiftSupport.h"
-#import "HelpshiftInbox.h"
+@import Helpshift
 
 @interface RNHelpshift : RCTEventEmitter<RCTBridgeModule, HelpshiftSupportDelegate, HelpshiftInboxDelegate>
 
