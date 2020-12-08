@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "RNHelpshift"
-    s.version      = "1.0.4"
+    s.version      = "1.0.6"
     s.summary      = "RNHelpshift"
     s.description  = "RNHelpshift Module"
     s.homepage     = "https://www.npmjs.com/package/react-native-hs"
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     s.dependency 'React-RCTVibration'
     s.dependency 'React-Core/RCTWebSocket'
 
-    s.dependency 'Helpshift', '7.9.1-bitcode'
+    s.dependency 'Helpshift', '6.2-bitcode'
   end
