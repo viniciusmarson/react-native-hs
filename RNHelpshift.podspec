@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     s.dependency 'React-RCTVibration'
     s.dependency 'React-Core/RCTWebSocket'
 
-    s.dependency 'Helpshift', '6.2-bitcode'
+    s.dependency 'Helpshift', '7.9.1-bitcode'
   end
