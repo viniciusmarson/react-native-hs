@@ -1,7 +1,4 @@
-// @import Helpshift
-
-#import "HelpshiftInbox.h"
-#import "HelpshiftSupport.h"
+@import Helpshift
 
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>

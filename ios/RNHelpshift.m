@@ -1,11 +1,4 @@
-// @import Helpshift
-
-
 #import "RNHelpshift.h"
-#import "HelpshiftCore.h"
-#import "HelpshiftInbox.h"
-#import "HelpshiftSupport.h"
-
 #import "RCTConvert.h"
 
 @implementation RNHelpshift
