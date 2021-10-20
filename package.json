@@ -1,6 +1,6 @@
 {
   "name": "react-native-hs",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "main": "RNHelpshift",
   "dependencies": {
     "fbjs": ">=0.8.3"

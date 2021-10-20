@@ -5,32 +5,13 @@ Native Bindings for the [Helpshift][helpshift] Library.  Available for iOS and A
 ## Installation (iOS)
 
 1. `npm install --save react-native-hs`
-2. `react-native link react-native-hs`
-3. Add Localytics to your ios/podfile file `pod 'Helpshift', '~> 6.2'`
-4. `cd ios && pod install`
-5. Follow the steps on the [Helpshift SDK to complete installation](https://developers.helpshift.com/ios/getting-started/). 
+2. `cd ios && pod install`
+3. Follow the steps on the [Helpshift SDK to complete installation](https://developers.helpshift.com/ios/getting-started/). 
 
 
 ## Installation (Android)
 
 1. `npm install --save react-native-hs`
-2. `react-native link react-native-hs`
-
-
-```java
-...
-include(':helpshift')
-project(':helpshift').projectDir = new File(rootProject.projectDir, '../node_modules/helpshift/android')
-```
-
-In android/app/build.gradle
-```java
-...
-dependencies{
-	...
-	compile project(':helpshift')
-}
-```
 
 register module in MainApplication.java
 ```java
