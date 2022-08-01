@@ -21,6 +21,12 @@ RCT_EXPORT_METHOD(showFAQs:(NSDictionary*)optionsDictionary)
   [HelpshiftSupport showFAQs:rootController withOptions:optionsDictionary];
 }
 
+RCT_EXPORT_METHOD(showSingleFAQ:(NSString*)faqId)
+{
+  UIViewController *rootController = UIApplication.sharedApplication.delegate.window.rootViewController;
+  [HelpshiftSupport showSingleFAQ:faqId withController:rootController withOptions:nil];
+}
+
 RCT_EXPORT_METHOD(showConversation:(NSDictionary*)optionsDictionary)
 {
   UIViewController *rootController = UIApplication.sharedApplication.delegate.window.rootViewController;
