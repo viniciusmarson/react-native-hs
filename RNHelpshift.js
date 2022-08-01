@@ -14,6 +14,10 @@ export function showFAQs(options = {}) {
   }
 }
 
+export function showSingleFAQ(faqId){
+  RNHelpshift.showSingleFAQ(faqId)
+}
+
 export function showConversation(options = {}) {
   if (Platform.OS === 'ios') {
     RNHelpshift.showConversation(options);

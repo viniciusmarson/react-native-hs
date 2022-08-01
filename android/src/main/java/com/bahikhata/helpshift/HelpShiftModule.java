@@ -44,6 +44,11 @@ public class HelpShiftModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    public void showSingleFAQ(String faqId){
+        Support.showSingleFAQ(getCurrentActivity(), faqId);
+    }
+
+    @ReactMethod
     public void showConversation(){
         Support.showConversation(getCurrentActivity());
     }
